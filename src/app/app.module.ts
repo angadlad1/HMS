@@ -7,10 +7,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table' 
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { AddCustomerComponent } from './add-customer/add-customer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddCustomerComponent
   ],
   imports: [
     BrowserModule,
